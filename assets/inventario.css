@@ -1,0 +1,61 @@
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  background: #fff;
+  padding: 60px 0 20px 0;
+  margin: 2em 0 0 0;
+}
+.team .member {
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+}
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-fluid{
+  height: 250px;
+}
+
+.team .member .member-img:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  z-index: 1;
+}
+
+.team .member:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.estiloBoton{
+  margin: 0 0 2em 0;
+}
+
+  .btn-mas {
+    margin: 80px 0 80px 0;
+    padding: 3px 10px;
+    background: #ed502e;
+    background: linear-gradient(0deg, rgb(238, 114, 42) 0%, rgb(236, 76, 12) 100%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-mas:hover {
+    background: #ef6445;
+    background: linear-gradient(0deg, rgb(197, 104, 67) 0%, rgb(241, 69, 26) 100%);
+    color: #fff;
+  }
